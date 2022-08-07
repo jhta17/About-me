@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #eee;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+a {
+  color: #3b44f6;
+  font-weight: bolder;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  z-index: 0;
+  padding-top: 2%;
+  margin-bottom: 10%;
+  -webkit-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  border-bottom: 1px solid #000;
+}
+
+.section:hover h2 {
+  color: #3b44f6;
+}
+
+a:hover {
+  color: #000;
+}
+
+.emphasis {
+  font-weight: bolder;
+}
+
+.header {
+  z-index: 1;
+  letter-spacing: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: #f7ec09;
+  text-align: center;
+  -webkit-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+}
+
+.header:hover {
+  background-color: #3b44f6;
+  color: #fff;
+}
